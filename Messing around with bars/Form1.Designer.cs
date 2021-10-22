@@ -43,6 +43,7 @@
             this.HPbigger = new System.Windows.Forms.ProgressBar();
             this.maxbigger = new System.Windows.Forms.ProgressBar();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // test
@@ -177,11 +178,21 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(157, 166);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(88, 13);
+            this.label5.TabIndex = 53;
+            this.label5.Text = "Dad is awesome.";
+            // 
             // BarProgram
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 159);
+            this.ClientSize = new System.Drawing.Size(426, 199);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.maxbigger);
             this.Controls.Add(this.HPbigger);
@@ -221,6 +232,7 @@
         private System.Windows.Forms.ProgressBar HPbigger;
         private System.Windows.Forms.ProgressBar maxbigger;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label5;
     }
 }
 
